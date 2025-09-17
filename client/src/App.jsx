@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './App.css';
-import {Button} from 'antd';
+import Header from './components/Header/Header';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     
+     <Header/>
     </>
   )
 }
