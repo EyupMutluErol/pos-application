@@ -3,4 +3,9 @@
 body {
   margin: 0;
   font-family: "Electrolize", sans-serif;
+  overflow: hidden;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
 }
