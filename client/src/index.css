@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: "Electrolize", sans-serif;
-  overflow: hidden;
+
 }
 
 .scrollbar-hide::-webkit-scrollbar {
@@ -17,6 +17,9 @@ body {
 @media (min-width:768px) {
     .categories::-webkit-scrollbar {
       display: none;
+  }
+  body {
+      overflow: hidden;
   }
 }
 

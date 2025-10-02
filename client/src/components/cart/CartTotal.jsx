@@ -15,7 +15,7 @@ function CartTotal() {
             </div>
             <div className='flex items-center gap-x-1'>
                 <Button className='w-full !rounded-full' type='primary' size='small' icon={<PlusCircleOutlined />}></Button>
-                <span>1</span>
+                <span className='font-bold'>1</span>
                 <Button className='w-full !rounded-full' type='primary' size='small' icon={<MinusCircleOutlined />}></Button>
             </div>
         </li>
