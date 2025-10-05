@@ -20,17 +20,17 @@ function Header() {
                         <HomeOutlined className='text-xl md:text-2xl' />
                         <span className='text-[10px] md:text-xs'>Ana Sayfa</span>
                     </Link>
-                    <Link to='cart' className='menu-link flex flex-col items-center hover:text-[#40a9ff] transition-all'>
+                    <Link to='/cart' className='menu-link flex flex-col items-center hover:text-[#40a9ff] transition-all'>
                         <Badge count={1} offset={[0, 6]} className='md:flex hidden'>
                             <ShoppingCartOutlined className='text-xl md:text-2xl ' />
                         </Badge>
                         <span className='text-[10px] md:text-xs'>Sepet</span>
                     </Link>
-                    <Link to="bills" className='menu-link flex flex-col items-center hover:text-[#40a9ff] transition-all'>
+                    <Link to="/bills" className='menu-link flex flex-col items-center hover:text-[#40a9ff] transition-all'>
                         <CopyOutlined className='text-xl md:text-2xl' />
                         <span className='text-[10px] md:text-xs'>Faturalar</span>
                     </Link>
-                    <Link to="/" className='menu-link flex flex-col items-center hover:text-[#40a9ff] transition-all'>
+                    <Link to="/customers" className='menu-link flex flex-col items-center hover:text-[#40a9ff] transition-all'>
                         <UserOutlined className='text-xl md:text-2xl' />
                         <span className='text-[10px] md:text-xs'>Müşteriler</span>
                     </Link>
